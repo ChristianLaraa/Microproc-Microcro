@@ -1,0 +1,38 @@
+MPLINK 4.47, Linker
+Linker Map File - Created Sun Sep 07 23:29:09 2025
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000022
+        .config_2007_P2.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000010      
+                            0x002007    0x002007      
+            18 out of 8455 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    APAGA   0x00000d    program     static C:\Users\chris\OneDrive\Desktop\Practica2_ChristianLara\p2.asm
+                 ENCIENDE   0x00000f    program     static C:\Users\chris\OneDrive\Desktop\Practica2_ChristianLara\p2.asm
+                Principal   0x00000a    program     static C:\Users\chris\OneDrive\Desktop\Practica2_ChristianLara\p2.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                Principal   0x00000a    program     static C:\Users\chris\OneDrive\Desktop\Practica2_ChristianLara\p2.asm
+                    APAGA   0x00000d    program     static C:\Users\chris\OneDrive\Desktop\Practica2_ChristianLara\p2.asm
+                 ENCIENDE   0x00000f    program     static C:\Users\chris\OneDrive\Desktop\Practica2_ChristianLara\p2.asm
+
+
