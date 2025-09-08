@@ -1,0 +1,9 @@
+|Pract2
+Sal1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+Y => inst2.IN1
+Y => inst.IN1
+Sal2 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, D:/chris/Downloads/ptc2/Pract2.bdf
+source_file = 1, Waveform.vwf
+source_file = 1, D:/chris/Downloads/ptc2/db/Pract2.cbx.xml
+design_name = Pract2
+instance = comp, \Sal1~output\, Sal1~output, Pract2, 1
+instance = comp, \Sal2~output\, Sal2~output, Pract2, 1
+instance = comp, \Y~input\, Y~input, Pract2, 1
+instance = comp, \A~input\, A~input, Pract2, 1
