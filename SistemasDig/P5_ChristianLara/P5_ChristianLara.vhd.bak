@@ -1,0 +1,42 @@
+library ieee;
+		use ieee.std_logic_1164.all ;
+		use ieee.std_logic_arith.all ;
+		use ieee.std_logic_unsigned.all;
+			
+entity P5_ChristianLara is port (
+		clk: in std_logic;
+		up: in std_logic;
+		Yout : out std_logic_vector(6 downto 0);
+		Q: inout std_logic_vector(3 downto 0));
+end P5_ChristianLara;
+
+architecture arqcont of P5_ChristianLara is
+begin
+	process (up,clk)
+	begin
+			If (clk'event and clk = '1') then
+					If (up='0') then
+								Q <= Q + 1;
+					else
+								Q <= Q - 1;
+			end if;
+		end if;
+end process;
+
+process (Q) begin
+			case Q is
+			-- dcba abcdefg
+				when "0000" => Yout <= "1111110";
+				when "0001" => Yout <= "0110000";
+				when "0010" => Yout <= "1101101";
+				when "0011" => Yout <= "1111001";
+				when "0100" => Yout <= "0110011";
+				when "0101" => Yout <= "1011011";
+				when "0110" => Yout <= "1011111";
+				when "0111" => Yout <= "1110000";
+				when "1000" => Yout <= "1111111";
+				when "1001" => Yout <= "1111011";
+				when others => Yout <= "0000000";
+		end case;
+	end process;
+end arqcont;
